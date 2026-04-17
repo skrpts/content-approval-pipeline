@@ -1,0 +1,41 @@
+# --- Identity ---
+id: "1780d12d-a8ce-4872-b4be-8633be4cc6ea"
+name: "content-approval-pipeline"
+display_name: "Content Approval Pipeline"
+description: "Draft content, pause for human review, then revise and polish based on your feedback"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+# --- Attribution ---
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+
+licence: "MIT"
+repository: "https://github.com/skrpts/content-approval-pipeline"
+
+# --- Discovery (Hub) ---
+category: "content-creator"
+tags:
+  - "content-creation"
+  - "approval"
+  - "human-in-the-loop"
+  - "gate-steps"
+
+# --- Security & Access ---
+requires:
+  services:
+    - "llm-service"
+  permissions: []
+  data_handling: []
+
+# --- Contents ---
+contents:
+  skills: 5
+  prompts: 5
+  workflows: 1
+  services: 1
+  sources: 0
+  documents: 0
+  assets: 1
+  total: 13
