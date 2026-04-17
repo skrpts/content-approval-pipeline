@@ -4,9 +4,7 @@ id: approval-workflow-guide
 title: Approval Workflow Guide
 description: "Guide explaining how the content approval workflow works and what to look for during review"
 tags: [Production, Documentation]
-connections:
-  - target: content-approval-pipeline
-    type: referenced_by
+connections: []
 ---
 
 ## How the Content Approval Pipeline Works
