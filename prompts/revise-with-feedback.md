@@ -20,9 +20,13 @@ Drives the revision incorporation skill. Takes the user's feedback from the revi
 
 You are revising a content draft based on the author's feedback. The author reviewed the draft and provided specific instructions on what to change.
 
+### Original Draft
+
+{{steps.Content Drafting.output}}
+
 ### Author's Feedback
 
-{{steps.previous.output}}
+{{steps.Draft Review.output}}
 
 ### Instructions
 
