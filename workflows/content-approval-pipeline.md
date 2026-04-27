@@ -31,15 +31,20 @@ composite_steps:
   - "consistency-check"
 execution:
   - skill: "content-drafting"
+    prompt: "draft-content"
     step_type: "generation"
   - skill: "draft-review"
+    prompt: "review-draft"
     step_type: "validation"
   - skill: "revision-incorporation"
+    prompt: "revise-with-feedback"
     step_type: "synthesis"
   - skill: "language-polish"
+    prompt: "polish-language"
     step_type: "content"
   - parallel:
     - skill: "consistency-check"
+      prompt: "check-consistency"
       step_type: "review"
 ---
 
