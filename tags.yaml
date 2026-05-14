@@ -1,0 +1,15 @@
+- id: "content-creation"
+  title: "Content Creation"
+  description: "Content Creation workflows and tools"
+
+- id: "approval"
+  title: "Approval"
+  description: "Approval workflows and tools"
+
+- id: "human-in-the-loop"
+  title: "Human In The Loop"
+  description: "Human In The Loop workflows and tools"
+
+- id: "gate-steps"
+  title: "Gate Steps"
+  description: "Gate Steps workflows and tools"
