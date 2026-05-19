@@ -3,7 +3,7 @@ id: "1780d12d-a8ce-4872-b4be-8633be4cc6ea"
 name: "content-approval-pipeline"
 display_name: "Content Approval Pipeline"
 description: "Draft content, pause for human review, then revise and polish based on your feedback"
-version: "1.0.9"
+version: "1.0.10"
 engine: ">=0.1.0"
 
 # --- Attribution ---
