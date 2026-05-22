@@ -3,7 +3,7 @@ id: "1780d12d-a8ce-4872-b4be-8633be4cc6ea"
 name: "content-approval-pipeline"
 display_name: "Content Approval Pipeline"
 description: "Draft content, pause for human review, then revise and polish based on your feedback"
-version: "1.0.11"
+version: "1.0.13"
 engine: ">=0.1.0"
 
 # --- Attribution ---
@@ -17,10 +17,10 @@ repository: "https://github.com/skrpts/content-approval-pipeline"
 # --- Discovery (Hub) ---
 category: "content-creator"
 tags:
-  - "content-creation"
   - "approval"
-  - "human-in-the-loop"
+  - "content-creation"
   - "gate-steps"
+  - "human-in-the-loop"
 
 # --- Security & Access ---
 requires:
