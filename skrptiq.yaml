@@ -1,9 +1,9 @@
 # --- Identity ---
-id: "1780d12d-a8ce-4872-b4be-8633be4cc6ea"
+id: "54ce9923-23bd-4b3a-8600-e42308ef7b63"
 name: "content-approval-pipeline"
 display_name: "Content Approval Pipeline"
 description: "Draft content, pause for human review, then revise and polish based on your feedback"
-version: "1.0.15"
+version: "1.0.16"
 engine: ">=0.1.0"
 
 # --- Attribution ---
