@@ -33,15 +33,19 @@ execution:
   - skill: "content-drafting"
     prompt: "draft-content"
     step_type: "generation"
+    output: { name: "draft", type: "text" }
   - skill: "draft-review"
     prompt: "review-draft"
     step_type: "validation"
+    output: { name: "review_feedback", type: "text" }
   - skill: "revision-incorporation"
     prompt: "revise-with-feedback"
     step_type: "synthesis"
+    output: { name: "revised_draft", type: "text" }
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    output: { name: "polished_content", type: "text" }
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
@@ -49,6 +53,7 @@ execution:
     - skill: "consistency-check"
       prompt: "check-consistency"
       step_type: "review"
+      output: { name: "consistency_verdict", type: "decision" }
       context:
         voice_profile: "Neutral professional tone"
         consistency_strictness: "Standard"
