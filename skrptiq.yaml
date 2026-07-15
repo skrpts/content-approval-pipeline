@@ -3,7 +3,7 @@ id: "54ce9923-23bd-4b3a-8600-e42308ef7b63"
 name: "content-approval-pipeline"
 display_name: "Content Approval Pipeline"
 description: "Draft content, pause for human review, then revise and polish based on your feedback"
-version: "1.0.17"
+version: "1.0.18"
 engine: ">=0.1.0"
 
 # --- Attribution ---
@@ -64,7 +64,7 @@ contents:
 
 security:
   status: "pass"
-  scanned_at: "2026-07-03T15:53:45.160Z"
+  scanned_at: "2026-07-15T11:38:46.009Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"

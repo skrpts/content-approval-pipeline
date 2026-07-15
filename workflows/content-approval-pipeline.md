@@ -37,6 +37,7 @@ execution:
   - skill: "draft-review"
     prompt: "review-draft"
     step_type: "validation"
+    gate: true
     output: { name: "review_feedback", type: "text" }
   - skill: "revision-incorporation"
     prompt: "revise-with-feedback"
@@ -96,7 +97,7 @@ The `consistency-check` skill runs in parallel with the polish step. It scans th
 
 ## Error Handling
 
-| Scenario | Behaviour |
+| Scenario | Behavior |
 |----------|-----------|
 | User provides no feedback at gate | Workflow waits indefinitely — the gate step does not time out |
 | User approves the draft | Revision step receives "approved" and returns the draft unchanged |

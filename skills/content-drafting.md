@@ -13,7 +13,7 @@ connections:
 
 Produces a complete first draft of any content type — blog post, proposal, report, newsletter, or similar — from a structured brief. Takes the topic, target audience, content type, style guidelines, and word count, then generates a well-structured draft ready for human review.
 
-This is a first-draft skill. It prioritises getting the structure, arguments, and tone right rather than surface-level polish. The expectation is that a human will review and provide feedback before the draft is finalised.
+This is a first-draft skill. It prioritizes getting the structure, arguments, and tone right rather than surface-level polish. The expectation is that a human will review and provide feedback before the draft is finalised.
 
 ## When to Use
 

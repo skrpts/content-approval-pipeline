@@ -69,11 +69,11 @@ If no word count is provided, target 1000 words.
 - An opening that hooks the reader with a relatable problem, surprising insight, or bold claim
 - 3-5 body sections, each with a clear subheading and a single main point
 - Concrete examples, evidence, or specific details in each section — no unsupported assertions
-- A conclusion that summarises the key takeaway and gives the reader a clear next step
+- A conclusion that summarizes the key takeaway and gives the reader a clear next step
 
 ### Important
 
-This draft will be reviewed by a human before it is finalised. Prioritise getting the structure, arguments, and tone right. Surface-level polish comes later — focus on substance.
+This draft will be reviewed by a human before it is finalised. Prioritize getting the structure, arguments, and tone right. Surface-level polish comes later — focus on substance.
 
 ## Formatting Rules
 
