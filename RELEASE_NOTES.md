@@ -1,5 +1,21 @@
 # Release Notes
 
+## v1.0.19
+GH#1100 consumer wave (batch 1) — declare the data flow this workflow was resolving positionally.
+
+Each stage below now receives its input through a declared `bindings:` entry instead of `default_from_previous`, which K-073 revoked. **The value is unchanged**: every binding names the step that immediately precedes it, which is exactly what the positional default resolved to. What changes is that the dependency is stated rather than inferred from position, so a reorder can no longer silently feed a stage the wrong artefact.
+
+Bindings added:
+  `polish-language` ← `from_step: "Revision Incorporation"` (step 4)
+  `check-consistency` ← `from_step: "Language Polish"` (step 5)
+
+Dependency pins moved to the published versions that declare these slots:
+  `check-consistency` 1.0.1 → 1.0.6
+  `consistency-check` 1.0.1 → 1.0.3
+  `language-polish` 1.0.1 → 1.0.3
+  `llm-service` 1.0.1 → 1.0.3
+  `polish-language` 1.0.1 → 1.0.7
+
 ## v1.0.18
 GH#844 — migrate the gate step from node-meta (`metadata.gate: true` in the skill) to the canonical execution-entry `gate: true` on the workflow step. Single source of truth; the engine + app read the execution entry. No behaviour change — `IsGate` is identical.
 
